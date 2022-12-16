@@ -23,6 +23,8 @@
         <micronaut.runtime>netty</micronaut.runtime>
         <micronaut.data.version>3.8.1</micronaut.data.version>
         <exec.mainClass>com.com.Application</exec.mainClass>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
     </properties>
 
     <repositories>

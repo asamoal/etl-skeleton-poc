@@ -17,7 +17,7 @@ public class InfiniteJob {
 //    @Inject
 //    private SchedulerService schedulerService;
 
-    @Scheduled(fixedRate = "5s")
+    @Scheduled(fixedRate = "1m")
     void execute() throws InterruptedException {
         System.out.println("Simple Job every 5 seconds:" + new SimpleDateFormat("dd/M/yyyy hh:mm:ss").format(new Date()));
 
