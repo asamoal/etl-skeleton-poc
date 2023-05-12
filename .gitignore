@@ -31,3 +31,10 @@ hs_err_pid*
 
 # dummy
 /dummy
+
+# MacOS
+.DS_Store/
+.DS_Store
+
+# target
+target/

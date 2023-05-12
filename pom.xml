@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>io.micronaut</groupId>
+        <artifactId>micronaut-parent</artifactId>
+        <version>3.7.4</version>
+    </parent>
+
+    <groupId>org.example</groupId>
+    <artifactId>core</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-RC1</version>
+
+    <name>ETL-Skeleton</name>
+    <description>Example ETL Skeleton POC</description>
+
+    <modules>
+        <module>etl-commons/java-commons</module>
+        <module>etl-scheduler</module>
+        <module>etl-pipeline</module>
+        <module>etl-workers/workflow-worker</module>
+        <module>etl-workers/activities-worker</module>
+        <module>etl-job</module>
+        <module>etl-engine/pipeline-engine</module>
+        <module>etl-infrastructure/infrastructure-resourcing</module>
+        <module>etl-connectors/commons/bases/base-java</module>
+        <module>etl-connectors/commons/bases/base-java-spark</module>
+        <module>etl-drivers/driver-java-spark</module>
+        <module>etl-drivers/driver-java-cli</module>
+        <module>etl-connectors/connectors/connector-sources/source-java-s3-spark</module>
+        <module>etl-connectors/connectors/connector-transforms/transform-java-csv-spark</module>
+        <module>etl-connectors/connectors/connector-destinations/destination-java-jdbc-spark</module>
+    </modules>
+
+</project>
