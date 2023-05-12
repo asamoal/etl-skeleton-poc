@@ -5,12 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>etl-job</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0-RC1</version>
 
     <parent>
         <groupId>org.example</groupId>
         <artifactId>core</artifactId>
         <version>1.0-RC1</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <properties>
@@ -133,14 +134,14 @@
 
         <dependency>
             <groupId>org.example</groupId>
-            <artifactId>java-commons</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <artifactId>etl-commons</artifactId>
+            <version>1.0-RC1</version>
         </dependency>
 
         <dependency>
             <groupId>org.example</groupId>
             <artifactId>workflow-worker</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.0-RC1</version>
         </dependency>
 
     </dependencies>

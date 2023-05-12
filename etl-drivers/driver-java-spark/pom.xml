@@ -11,6 +11,7 @@
         <groupId>org.example</groupId>
         <artifactId>core</artifactId>
         <version>1.0-RC1</version>
+        <relativePath>../../pom.xml</relativePath>
     </parent>
 
     <properties>
@@ -208,7 +209,7 @@
         </dependency>
         <dependency>
             <groupId>org.example</groupId>
-            <artifactId>java-commons</artifactId>
+            <artifactId>etl-commons</artifactId>
             <version>1.0-RC1</version>
             <scope>compile</scope>
         </dependency>
